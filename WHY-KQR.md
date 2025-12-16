@@ -187,6 +187,8 @@ They made knowledge legitimacy unclear.
 
 **KQR and IFX exist because organizations can no longer afford to treat the two as the same thing.**
 
+>_KQR does not reduce uncertainty. It makes uncertainty governable._
+>
 ---
 
 ## Key Takeaways
