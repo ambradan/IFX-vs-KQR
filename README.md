@@ -2,6 +2,8 @@
 
 > *Organizations will not be judged on whether they used AI. They will be judged on whether they knew what they were doing with its outputs.*
 
+In regulated environments, the absence of qualification is itself a risk.
+
 ## Canonical Definitions
 
 **Knowledge Qualification Regime (KQR)** is a governance framework that defines when outputs produced in non-deterministic environments (e.g., LLM-generated content) can be treated as admissible knowledge, and under which constraints.
