@@ -96,3 +96,9 @@ Any environment where decisions must remain defensible under audit.
 | [Boundaries](./boundaries.md) | Scope and limitations |
 
 ---
+
+## Contact
+
+For institutional, legal, or governance discussions:  
+
+[ambradan91@gmail.com]
