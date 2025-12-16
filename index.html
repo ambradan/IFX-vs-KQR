@@ -1,20 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>KQR / IFX</title>
+
   <style>
+    @import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap");
+
     * {
       margin: 0;
       padding: 0;
       box-sizing: border-box;
     }
-    
-    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap');
-    
+
     body {
-      font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+      font-family: "Inter", -apple-system, BlinkMacSystemFont, sans-serif;
       background: #0a0a0a;
       color: #ffffff;
       min-height: 100vh;
@@ -24,7 +25,7 @@
       align-items: center;
       padding: 60px 80px;
     }
-    
+
     .container {
       max-width: 1200px;
       width: 100%;
@@ -32,11 +33,11 @@
       flex-direction: column;
       gap: 50px;
     }
-    
+
     .header {
       text-align: center;
     }
-    
+
     h1 {
       font-size: 42px;
       font-weight: 500;
@@ -44,7 +45,7 @@
       color: #ffffff;
       margin-bottom: 32px;
     }
-    
+
     .tagline {
       font-size: 20px;
       font-weight: 300;
@@ -54,21 +55,21 @@
       margin: 0 auto;
       line-height: 1.6;
     }
-    
+
     .body {
       text-align: center;
       display: flex;
       flex-direction: column;
       gap: 24px;
     }
-    
+
     .body p {
       font-size: 22px;
       font-weight: 300;
       color: #d0d0d0;
       line-height: 1.7;
     }
-    
+
     .diagram {
       display: flex;
       flex-direction: column;
@@ -76,7 +77,7 @@
       gap: 12px;
       margin: 30px 0;
     }
-    
+
     .diagram-box {
       padding: 14px 32px;
       border: 1px solid #333;
@@ -87,34 +88,29 @@
       min-width: 280px;
       text-align: center;
     }
-    
+
     .diagram-box.source {
       color: #888;
       border-color: #444;
     }
-    
-    .diagram-box.kqr {
-      color: #ffffff;
-      border-color: #666;
-      background: rgba(255,255,255,0.03);
-    }
-    
+
+    .diagram-box.kqr,
     .diagram-box.ifx {
       color: #ffffff;
       border-color: #666;
-      background: rgba(255,255,255,0.03);
+      background: rgba(255, 255, 255, 0.03);
     }
-    
+
     .diagram-box.output {
       color: #888;
       border-color: #444;
     }
-    
+
     .diagram-arrow {
       color: #444;
       font-size: 18px;
     }
-    
+
     .bottom-line {
       text-align: center;
       font-size: 18px;
@@ -122,46 +118,57 @@
       color: #ffffff;
       margin-top: 20px;
     }
-    
+
     .footer {
       position: fixed;
       bottom: 40px;
       right: 60px;
       text-align: right;
     }
-    
+
     .footer-label {
       font-size: 12px;
       color: #666;
       margin-bottom: 4px;
     }
-    
+
     .footer-link {
       font-size: 13px;
+      font-family: "SF Mono", "Consolas", monospace;
+    }
+
+    .footer-link a {
       color: #888;
-      font-family: 'SF Mono', 'Consolas', monospace;
+      text-decoration: none;
+    }
+
+    .footer-link a:hover {
+      color: #ffffff;
+      text-decoration: underline;
     }
   </style>
 </head>
+
 <body>
   <div class="container">
-    
     <div class="header">
       <h1>Governance Infrastructure for Non-Deterministic Systems</h1>
-      <p class="tagline">Organizations will not be judged on whether they used AI. They will be judged on whether they knew what they were doing with its outputs.</p>
+      <p class="tagline">
+        Organizations will not be judged on whether they used AI. They will be judged on whether they knew what they were doing with its outputs.
+      </p>
     </div>
-    
+
     <div class="body">
       <p>
-        Non-deterministic systems made output generation easy.<br>
+        Non-deterministic systems made output generation easy.<br />
         They made knowledge legitimacy unclear.
       </p>
       <p>
-        We built governance infrastructure to qualify,<br>
+        We built governance infrastructure to qualify,<br />
         audit, and constrain the use of those outputs.
       </p>
     </div>
-    
+
     <div class="diagram">
       <div class="diagram-box source">Non-Deterministic Systems</div>
       <div class="diagram-arrow">↓</div>
@@ -171,25 +178,19 @@
       <div class="diagram-arrow">↓</div>
       <div class="diagram-box output">Admissible Knowledge</div>
     </div>
-    
+
     <div class="bottom-line">
       This is not AI optimization. This is risk containment and decision accountability.
     </div>
-    
   </div>
-  
+
   <div class="footer">
     <div class="footer-label">Technical specification & governance model</div>
-    <div class="footer-link">github.com/ambradan/IFX-vs-KQR</div>
+    <div class="footer-link">
+      <a href="https://github.com/ambradan/IFX-vs-KQR" target="_blank" rel="noopener noreferrer">
+        github.com/ambradan/IFX-vs-KQR
+      </a>
+    </div>
   </div>
-  
 </body>
 </html>
-<div class="footer-link">
-  <a href="https://github.com/ambradan/IFX-vs-KQR"
-     target="_blank"
-     rel="noopener noreferrer">
-     github.com/ambradan/IFX-vs-KQR
-  </a>
-</div>
-
