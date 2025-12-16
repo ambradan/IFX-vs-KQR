@@ -76,7 +76,7 @@ Non-Deterministic Sources          Qualified Outputs
 
 | File | Purpose |
 |------|---------|
-| [WHY-KQR?.md](./WHY-KQR?.md) | Executive rationale |
+| [WHY-KQR.md](./WHY-KQR.md) | Executive rationale |
 | [IFX-VS-KQR.md](./IFX-VS-KQR.md) | Detailed comparison |
 | [TERMINOLOGY.md](./TERMINOLOGY.md) | Fixed glossary |
 | [DIAGRAM.md](./DIAGRAM.md) | Architecture explanation |
