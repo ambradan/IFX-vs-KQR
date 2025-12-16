@@ -6,6 +6,8 @@ In regulated environments, the absence of qualification is itself a risk.
 
 ## Canonical Definitions
 
+KQR and IFX do not evaluate correctness or truthfulness of outputs. They evaluate admissibility, traceability, and governance status.
+
 **Knowledge Qualification Regime (KQR)** is a governance framework that defines when outputs produced in non-deterministic environments (e.g., LLM-generated content) can be treated as admissible knowledge, and under which constraints.
 
 **IFX (Inference Forensics Execution)** is the forensic execution layer that implements KQR rules at runtime, ensuring traceability, auditability, and policy compliance.
