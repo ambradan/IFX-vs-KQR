@@ -1,4 +1,5 @@
 # Why Knowledge Qualification Became Necessary — Why Now
+>_The rise of non-deterministic systems has outpaced the governance models used to qualify their outputs._
 
 ## Executive Statement
 
