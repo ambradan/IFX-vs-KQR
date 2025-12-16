@@ -1,4 +1,4 @@
-# IFX and KQR — Governance Infrastructure for Non-Deterministic Systems
+# IFX vs KQR — Governance Infrastructure for Non-Deterministic Systems
 
 > *Organizations will not be judged on whether they used AI. They will be judged on whether they knew what they were doing with its outputs.*
 
