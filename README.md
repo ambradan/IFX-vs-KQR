@@ -6,7 +6,8 @@ In regulated environments, the absence of qualification is itself a risk.
 
 ## Canonical Definitions
 
-KQR and IFX do not evaluate correctness or truthfulness of outputs. They evaluate admissibility, traceability, and governance status.
+KQR and IFX do not evaluate correctness or truthfulness of outputs.
+They evaluate whether outputs may be treated as admissible knowledge, under defined traceability and governance constraints.
 
 **Knowledge Qualification Regime (KQR)** is a governance framework that defines when outputs produced in non-deterministic environments (e.g., LLM-generated content) can be treated as admissible knowledge, and under which constraints.
 
